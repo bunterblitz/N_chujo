@@ -84,15 +84,13 @@ print(round(HN,2))
 N_cal=N[NUi:NBi+1]
 d_cal=d[NUi:NBi+1]
 
-
-
 print(NBi)
 print(N_cal,d_cal)
 
 ph=np.array([20,20,20+fai/400,20+fai/400])
 pd=np.array([pile_head*-1,pile_tip*-1,pile_tip*-1,pile_head*-1])
 
-#=====================================--
+#========================================
 fig1=plt.figure(figsize=(3.2,7.2))
 fig1.subplots_adjust(left=0.2, bottom=0.1, right=0.95,
                     top=0.95, wspace=0.15, hspace=0.15)
