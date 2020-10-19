@@ -11,6 +11,7 @@ with open(path,encoding='utf-8') as f:
     all_csv=[row for row in f]
     csv_r=len(all_csv)
     csv_c=len(all_csv[0])
+    
 def pikup(list,position,new_list):
     for i in list[1:]:
         temp=float(i[position])
